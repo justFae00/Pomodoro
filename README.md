@@ -8,7 +8,7 @@ Abilities:
   3. Alarm audio is played when the timer is done. (mute option is available) audio from [mixkit](https://mixkit.co/)
   4. A soft animation is on infinite play.
 
-- Might add a setting to change timings and alarm audio -
+!Might add a setting to change timings and alarm audio.
 
 Watch the demo [here](https://justfae00.github.io/Pomodoro).
 
