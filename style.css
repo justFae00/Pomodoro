@@ -1,0 +1,101 @@
+body {
+  background-color: #f9f9f9;
+}
+
+* {
+  font-family: Oxanium;
+}
+
+#sound-controller {
+  margin-left: 10px;
+  margin-top: 25px;
+  font-size: 25px;
+  color: #414141;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+#sound-controller:hover {
+  text-shadow: 0px 0px 2px #585858;
+}
+
+#container {
+  margin: 0 auto;
+  background-color: rgb(17, 94, 239);
+  width: 320px;
+  height: 320px;
+  border-radius: 500px;
+  padding: 100px;
+  margin-top: 30px;
+  transition: border-radius 1s ease-in-out;
+  animation: border-change 30s infinite ease-in-out;
+  animation-play-state: paused;
+}
+
+@keyframes border-change {
+  20% {
+    border-top-right-radius: 5px;
+  }
+  42% {
+    border-bottom-right-radius: 5px;
+  }
+  60% {
+    border-bottom-left-radius: 5px;
+  }
+  78% {
+    border-top-left-radius: 5px;
+  }
+}
+
+#mode-selector {
+  font-size: 18px;
+  border-radius: 15px;
+  padding: 5px;
+  margin-left: 30%;
+  opacity: 82%;
+  transition: all 0.3s;
+}
+
+#mode-selector:hover {
+  opacity: 1;
+  box-shadow: 0px 0px 2px #fff;
+}
+
+.countdown {
+  font-size: 85px;
+  letter-spacing: 2px;
+  color: rgb(255, 255, 255);
+  font-family: Orbitron;
+  text-shadow: 0px 0px 5px #fff;
+  transition: all 0.3s;
+}
+
+#timer-container:hover * {
+  text-shadow: 0px 0px 9px #fff;
+}
+
+#timer-container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+button {
+  padding: 15px;
+  font-size: 37px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: #fff;
+  opacity: 86%;
+  transition: all 0.5s;
+}
+
+button:hover {
+  opacity: 1;
+  scale: 115%;
+  text-shadow: 0px 0px 2px #fff;
+}
+
+#start-pause-button {
+  margin-left: 30%;
+}

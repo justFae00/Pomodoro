@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pomodoro App</title>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/21e49bdcfc.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron&family=Oxanium&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="sound-controller">
+      <i id="sound-icon" class="fa-solid fa-volume-high"></i>
+    </div>
+    <div id="container">
+      <div id="input-container">
+        <select name="" id="mode-selector">
+          <option value="pomodoro">Pomodoro</option>
+          <option value="break">Break</option>
+          <option value="long-break">Long Break</option>
+        </select>
+      </div>
+      <div id="timer-container">
+        <span class="countdown" id="minute">25</span>
+        <span class="countdown" id="dots">:</span>
+        <span class="countdown" id="second">00</span>
+      </div>
+      <button id="start-pause-button">
+        <i id="run-status" class="fa-solid fa-play"></i>
+      </button>
+      <button id="reset-button">
+        <i class="fa-solid fa-rotate-right"></i>
+      </button>
+    </div>
+  </body>
+</html>
